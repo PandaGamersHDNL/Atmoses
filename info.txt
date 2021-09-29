@@ -1,0 +1,16 @@
+oxygen sensor:
+	red 5v
+	black grnd
+	yellow analog pin A1
+co2 sensor
+	D analog pin
+	+ 5v
+	- grnd
+
+librairies:
+oxygen: https://github.com/SeeedDocument/Grove_Gas_Sensor_O2 , https://wiki.seeedstudio.com/Grove-Gas_Sensor-O2/
+CO2Sensor: https://drive.google.com/file/d/1SHXqV91SANKL5Ngzo0281eh58O6Ug8Ye/view , https://www.youtube.com/watch?v=TKY-ITT_PG4
+
+passive buzzer(alarm): https://microcontrollerslab.com/buzzer-interfacing-arduino-sound-code/
+
+input: 1 resistor 10K Ohm (10K = 10000) [brown, black, orange, gold] Or [brown, black, black, red, brown] + button
